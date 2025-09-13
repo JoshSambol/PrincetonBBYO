@@ -6,63 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		5769A53E2E74D3740082B4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5769A5222E74D3730082B4EE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5769A5292E74D3730082B4EE;
-			remoteInfo = PrincetonBBYO;
-		};
-		5769A5482E74D3740082B4EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5769A5222E74D3730082B4EE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5769A5292E74D3730082B4EE;
-			remoteInfo = PrincetonBBYO;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		5769A52A2E74D3730082B4EE /* PrincetonBBYO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrincetonBBYO.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5769A53D2E74D3740082B4EE /* PrincetonBBYOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrincetonBBYOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5769A5472E74D3740082B4EE /* PrincetonBBYOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrincetonBBYOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5769A5632E74D4040082B4EE /* PrincetonBBYO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrincetonBBYO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5769A52C2E74D3730082B4EE /* PrincetonBBYO */ = {
+		5769A5652E74D4040082B4EE /* PrincetonBBYO */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PrincetonBBYO;
-			sourceTree = "<group>";
-		};
-		5769A5402E74D3740082B4EE /* PrincetonBBYOTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PrincetonBBYOTests;
-			sourceTree = "<group>";
-		};
-		5769A54A2E74D3740082B4EE /* PrincetonBBYOUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PrincetonBBYOUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5769A5272E74D3730082B4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A53A2E74D3740082B4EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A5442E74D3740082B4EE /* Frameworks */ = {
+		5769A5602E74D4040082B4EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5769A5212E74D3730082B4EE = {
+		5769A55A2E74D4040082B4EE = {
 			isa = PBXGroup;
 			children = (
-				5769A52C2E74D3730082B4EE /* PrincetonBBYO */,
-				5769A5402E74D3740082B4EE /* PrincetonBBYOTests */,
-				5769A54A2E74D3740082B4EE /* PrincetonBBYOUITests */,
-				5769A52B2E74D3730082B4EE /* Products */,
+				5769A5652E74D4040082B4EE /* PrincetonBBYO */,
+				5769A5642E74D4040082B4EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5769A52B2E74D3730082B4EE /* Products */ = {
+		5769A5642E74D4040082B4EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5769A52A2E74D3730082B4EE /* PrincetonBBYO.app */,
-				5769A53D2E74D3740082B4EE /* PrincetonBBYOTests.xctest */,
-				5769A5472E74D3740082B4EE /* PrincetonBBYOUITests.xctest */,
+				5769A5632E74D4040082B4EE /* PrincetonBBYO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5769A5292E74D3730082B4EE /* PrincetonBBYO */ = {
+		5769A5622E74D4040082B4EE /* PrincetonBBYO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5769A5512E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYO" */;
+			buildConfigurationList = 5769A5722E74D4060082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYO" */;
 			buildPhases = (
-				5769A5262E74D3730082B4EE /* Sources */,
-				5769A5272E74D3730082B4EE /* Frameworks */,
-				5769A5282E74D3730082B4EE /* Resources */,
+				5769A55F2E74D4040082B4EE /* Sources */,
+				5769A5602E74D4040082B4EE /* Frameworks */,
+				5769A5612E74D4040082B4EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5769A52C2E74D3730082B4EE /* PrincetonBBYO */,
+				5769A5652E74D4040082B4EE /* PrincetonBBYO */,
 			);
 			name = PrincetonBBYO;
 			packageProductDependencies = (
 			);
 			productName = PrincetonBBYO;
-			productReference = 5769A52A2E74D3730082B4EE /* PrincetonBBYO.app */;
+			productReference = 5769A5632E74D4040082B4EE /* PrincetonBBYO.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5769A53C2E74D3740082B4EE /* PrincetonBBYOTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5769A5542E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYOTests" */;
-			buildPhases = (
-				5769A5392E74D3740082B4EE /* Sources */,
-				5769A53A2E74D3740082B4EE /* Frameworks */,
-				5769A53B2E74D3740082B4EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5769A53F2E74D3740082B4EE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5769A5402E74D3740082B4EE /* PrincetonBBYOTests */,
-			);
-			name = PrincetonBBYOTests;
-			packageProductDependencies = (
-			);
-			productName = PrincetonBBYOTests;
-			productReference = 5769A53D2E74D3740082B4EE /* PrincetonBBYOTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5769A5462E74D3740082B4EE /* PrincetonBBYOUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5769A5572E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYOUITests" */;
-			buildPhases = (
-				5769A5432E74D3740082B4EE /* Sources */,
-				5769A5442E74D3740082B4EE /* Frameworks */,
-				5769A5452E74D3740082B4EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5769A5492E74D3740082B4EE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5769A54A2E74D3740082B4EE /* PrincetonBBYOUITests */,
-			);
-			name = PrincetonBBYOUITests;
-			packageProductDependencies = (
-			);
-			productName = PrincetonBBYOUITests;
-			productReference = 5769A5472E74D3740082B4EE /* PrincetonBBYOUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5769A5222E74D3730082B4EE /* Project object */ = {
+		5769A55B2E74D4040082B4EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					5769A5292E74D3730082B4EE = {
+					5769A5622E74D4040082B4EE = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					5769A53C2E74D3740082B4EE = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5769A5292E74D3730082B4EE;
-					};
-					5769A5462E74D3740082B4EE = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 5769A5292E74D3730082B4EE;
 					};
 				};
 			};
-			buildConfigurationList = 5769A5252E74D3730082B4EE /* Build configuration list for PBXProject "PrincetonBBYO" */;
+			buildConfigurationList = 5769A55E2E74D4040082B4EE /* Build configuration list for PBXProject "PrincetonBBYO" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5769A5212E74D3730082B4EE;
+			mainGroup = 5769A55A2E74D4040082B4EE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5769A52B2E74D3730082B4EE /* Products */;
+			productRefGroup = 5769A5642E74D4040082B4EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5769A5292E74D3730082B4EE /* PrincetonBBYO */,
-				5769A53C2E74D3740082B4EE /* PrincetonBBYOTests */,
-				5769A5462E74D3740082B4EE /* PrincetonBBYOUITests */,
+				5769A5622E74D4040082B4EE /* PrincetonBBYO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5769A5282E74D3730082B4EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A53B2E74D3740082B4EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A5452E74D3740082B4EE /* Resources */ = {
+		5769A5612E74D4040082B4EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5769A5262E74D3730082B4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A5392E74D3740082B4EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5769A5432E74D3740082B4EE /* Sources */ = {
+		5769A55F2E74D4040082B4EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,21 +124,8 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5769A53F2E74D3740082B4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5769A5292E74D3730082B4EE /* PrincetonBBYO */;
-			targetProxy = 5769A53E2E74D3740082B4EE /* PBXContainerItemProxy */;
-		};
-		5769A5492E74D3740082B4EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5769A5292E74D3730082B4EE /* PrincetonBBYO */;
-			targetProxy = 5769A5482E74D3740082B4EE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		5769A54F2E74D3740082B4EE /* Debug */ = {
+		5769A5702E74D4060082B4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		5769A5502E74D3740082B4EE /* Release */ = {
+		5769A5712E74D4060082B4EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +239,7 @@
 			};
 			name = Release;
 		};
-		5769A5522E74D3740082B4EE /* Debug */ = {
+		5769A5732E74D4060082B4EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -396,6 +252,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Princeton BBYO";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,12 +261,12 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		5769A5532E74D3740082B4EE /* Release */ = {
+		5769A5742E74D4060082B4EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -435,6 +292,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Princeton BBYO";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -443,12 +301,12 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,96 +315,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		5769A5552E74D3740082B4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LR6TS2F59;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYOTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrincetonBBYO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrincetonBBYO";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		5769A5562E74D3740082B4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LR6TS2F59;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYOTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrincetonBBYO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrincetonBBYO";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		5769A5582E74D3740082B4EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LR6TS2F59;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYOUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = PrincetonBBYO;
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		5769A5592E74D3740082B4EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4LR6TS2F59;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JoshSambol.PrincetonBBYOUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = PrincetonBBYO;
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -554,43 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5769A5252E74D3730082B4EE /* Build configuration list for PBXProject "PrincetonBBYO" */ = {
+		5769A55E2E74D4040082B4EE /* Build configuration list for PBXProject "PrincetonBBYO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5769A54F2E74D3740082B4EE /* Debug */,
-				5769A5502E74D3740082B4EE /* Release */,
+				5769A5702E74D4060082B4EE /* Debug */,
+				5769A5712E74D4060082B4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5769A5512E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYO" */ = {
+		5769A5722E74D4060082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5769A5522E74D3740082B4EE /* Debug */,
-				5769A5532E74D3740082B4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5769A5542E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYOTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5769A5552E74D3740082B4EE /* Debug */,
-				5769A5562E74D3740082B4EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5769A5572E74D3740082B4EE /* Build configuration list for PBXNativeTarget "PrincetonBBYOUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5769A5582E74D3740082B4EE /* Debug */,
-				5769A5592E74D3740082B4EE /* Release */,
+				5769A5732E74D4060082B4EE /* Debug */,
+				5769A5742E74D4060082B4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5769A5222E74D3730082B4EE /* Project object */;
+	rootObject = 5769A55B2E74D4040082B4EE /* Project object */;
 }
